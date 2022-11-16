@@ -30,7 +30,7 @@
 
 # # Pass the file as parameter to the entry command to start your App
 # CMD [ "app.py" ]
-FROM python:3.8
+FROM python:3.7
 
 ENV PORT 80
 ENV HOSTDIR 0.0.0.0
